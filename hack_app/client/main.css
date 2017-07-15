@@ -64,3 +64,27 @@
 .center{
 	
 }
+
+
+/*card screen styling*/
+.cardScreen-wrapper {
+	
+}
+
+.cardScreen-image-container {
+	width: 700px;
+}
+
+.cardScreen-image {
+	width: 650px;
+}
+
+.cardScreen-name {
+	font-size: 45px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.cardScreen-description {
+	font-size: 25px;
+	font-family: 'Open Sans', sans-serif;
+}
