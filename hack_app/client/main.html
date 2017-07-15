@@ -9,7 +9,7 @@
 
 <template name="mainScreen">
 <body class="bck">
-{{#unless clicked}}
+{{#unless linkAccountsClicked}}
 <div class="center"> 
 <img class ="logo" src="/images/hack10.png">
  <!-- <img src="images/test.png"> -->
@@ -22,18 +22,18 @@
 </div>
 {{/unless}}
 
- {{#if clicked}}
-  {{> LinkAccounts}}
+ {{#if linkAccountsClicked}}
+  {{> linkAccounts}}
  {{/if}}
 
 
 </body>
 
- <!--  <button>Click Me</button>
-  <p>You've pressed the button {{counter}} times.</p> -->
 </template>
+
 <template name="linkAccounts">
-  LinkAccounts
+  Link Accounts
+  bloop bloop
   <img/>
 </template>
 

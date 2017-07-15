@@ -11,16 +11,16 @@ Template.mainScreen.onCreated(function helloOnCreated() {
 
   self.vars = new ReactiveDict();
 
-  self.vars.setDefault( 'cardScreenClicked' , false);
+  self.vars.setDefault( 'linkAccountsClicked' , false);
 });
 
 Template.mainScreen.helpers({
   counter() {
     return Template.instance().counter.get();
   },
-  clicked:function(){
+  linkAccountsClicked:function(){
 	 var instance = Template.instance(); //http://docs.meteor.com/#/full/template_instance
-	 return  instance.vars.get('cardScreenClicked') //this will return false(default) | true
+	 return  instance.vars.get('linkAccountsClicked') //this will return false(default) | true
 	}
 });
 
@@ -28,7 +28,7 @@ Template.mainScreen.events({
   'click .green'(event, instance) {
     // increment the counter when button is clicked
     console.log("boob");
-    instance.vars.set('cardScreenClicked', true);
+    instance.vars.set('linkAccountsClicked', true);
   },
 
 });
