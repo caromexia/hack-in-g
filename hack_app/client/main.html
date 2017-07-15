@@ -1,1 +1,68 @@
 
+<body>
+  {{> mainScreen}}
+ <!--  {{> info}} -->
+</body>
+
+<template name="mainScreen">
+<body>
+{{#unless clicked}}
+<div class="center"> 
+<img src="/images/sign_up.png">
+ <!-- <img src="images/test.png"> -->
+  <div>
+  <button class="green"> SIGN UP </button>
+  </div>
+  <div>
+  <button class="blue"> LOGIN </button>
+  </div>
+</div>
+{{/unless}}
+
+ {{#if clicked}}
+  {{> LinkAccounts}}
+ {{/if}}
+
+</body>
+
+ <!--  <button>Click Me</button>
+  <p>You've pressed the button {{counter}} times.</p> -->
+</template>
+<template name="linkAccounts">
+  LinkAccounts
+  <img src="/images/friend_tag.png"/>
+</template>
+
+<template name="cardScreen">
+  cardScreen
+ <img/>
+</template>
+
+<template name="settingScreen">
+</template>
+
+<template name="contactsScreen">
+  contacts screen
+  <img/>
+</template>
+
+<template name="cameraScreen">
+  camera Screen
+  <img/>
+</template>
+
+<template name="friendProfileScreen">
+  friend Profile
+  <img/>
+</template>
+
+<template name="info">
+  <h2>Learn Meteor!</h2>
+  <ul>
+    <li><a href="https://www.meteor.com/try" target="_blank">Do the Tutorial</a></li>
+    <li><a href="http://guide.meteor.com" target="_blank">Follow the Guide</a></li>
+    <li><a href="https://docs.meteor.com" target="_blank">Read the Docs</a></li>
+    <li><a href="https://forums.meteor.com" target="_blank">Discussions</a></li>
+  </ul>
+</template>
+
