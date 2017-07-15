@@ -14,16 +14,16 @@
 <img class ="logo" src="/images/hack10.png">
  <!-- <img src="images/test.png"> -->
   <div>
-  <button> SIGN UP </button>
+  <button class="green"> SIGN UP </button>
   </div>
   <div>
-  <button> LOGIN </button>
+  <button class="blue"> LOGIN </button>
   </div>
 </div>
 {{/unless}}
 
  {{#if clicked}}
-  {{> cardScreen}}
+  {{> LinkAccounts}}
  {{/if}}
 
 
@@ -34,32 +34,31 @@
 </template>
 <template name="linkAccounts">
   LinkAccounts
+  <img/>
 </template>
 
 <template name="cardScreen">
-  <div class="cardScreen-wrapper">
-    <div class="cardScreen-card">
-    <div class="cardScreen-image-container">
-      <img class="cardScreen-image" src="images/profile_image.jpg">
-    </div>
-    <div class="cardScreen-name">
-      Lily Ortega
-    </div>
-    <div class="cardScreen-description">
-      UX Designer
-    </div>
-  </div>
-</div>
+  cardScreen
+ <img/>
+</template>
+
+<template name="settingScreen">
 </template>
 
 <template name="contactsScreen">
   contacts screen
+  <img/>
 </template>
 
 <template name="cameraScreen">
   camera Screen
+  <img/>
 </template>
 
+<template name="friendProfileScreen">
+  friend Profile
+  <img/>
+</template>
 
 <template name="info">
   <h2>Learn Meteor!</h2>
