@@ -1,5 +1,32 @@
 /* CSS declarations go here */
+.fullHeight{
+	height: 667px;
+}
+.bck{
+height: 100%;	
+background: rgba(248,80,50,1);
+background: -moz-linear-gradient(top, rgba(248,80,50,1) 0%, rgba(2,23,117,1) 0%, rgba(113,94,236,1) 95%, rgba(113,94,236,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(248,80,50,1)), color-stop(0%, rgba(2,23,117,1)), color-stop(95%, rgba(113,94,236,1)), color-stop(100%, rgba(113,94,236,1)));
+background: -webkit-linear-gradient(top, rgba(248,80,50,1) 0%, rgba(2,23,117,1) 0%, rgba(113,94,236,1) 95%, rgba(113,94,236,1) 100%);
+background: -o-linear-gradient(top, rgba(248,80,50,1) 0%, rgba(2,23,117,1) 0%, rgba(113,94,236,1) 95%, rgba(113,94,236,1) 100%);
+background: -ms-linear-gradient(top, rgba(248,80,50,1) 0%, rgba(2,23,117,1) 0%, rgba(113,94,236,1) 95%, rgba(113,94,236,1) 100%);
+background: linear-gradient(to bottom, rgba(248,80,50,1) 0%, rgba(2,23,117,1) 0%, rgba(113,94,236,1) 95%, rgba(113,94,236,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', endColorstr='#715eec', GradientType=0 );
+}
 
+.blue{
+
+	background-color:"#021775";
+}
+
+.logo{
+	margin-left: 160px;
+	text-align: left;
+	margin-top: 400px;
+	margin-bottom: 400px;
+	width:auto;
+    height:150px;
+}
 .green{
   font-family: 'Open Sans', sans-serif;
   text-align: center;
@@ -14,7 +41,7 @@
   -moz-border-radius: 28;
   border-radius: 28px;
   color: #ffffff;
-  margin-top: 100px;
+  margin-top: 1000px;
   font-size: 51px;
   padding: 6px 20px 10px 20px;
   text-decoration: none;
@@ -62,5 +89,5 @@
 }
 
 .center{
-	
+	width: 100%;
 }
