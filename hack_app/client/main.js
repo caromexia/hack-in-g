@@ -25,7 +25,7 @@ Template.mainScreen.helpers({
 });
 
 Template.mainScreen.events({
-  'click .green'(event, instance) {
+  'click .signInClick'(event, instance) {
     // increment the counter when button is clicked
     console.log("boob");
     instance.vars.set('linkAccountsClicked', true);

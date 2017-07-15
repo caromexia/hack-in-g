@@ -1,6 +1,3 @@
-<head>
-  <title>TAG</title>
-</head>
 
 <body>
   {{> mainScreen}}
@@ -8,24 +5,17 @@
 </body>
 
 <template name="mainScreen">
-<body class="bck">
+<body>
 {{#unless linkAccountsClicked}}
-<div class="center"> 
-<img class ="logo" src="/images/hack10.png">
+<!-- <div class="center">  -->
+<img src="/images/sign_up.png" class="signInClick">
  <!-- <img src="images/test.png"> -->
-  <div>
-  <button class="green"> SIGN UP </button>
-  </div>
-  <div>
-  <button class="blue"> LOGIN </button>
-  </div>
-</div>
+<!-- </div> -->
 {{/unless}}
 
  {{#if linkAccountsClicked}}
   {{> linkAccounts}}
  {{/if}}
-
 
 </body>
 
@@ -33,8 +23,8 @@
 
 <template name="linkAccounts">
   Link Accounts
-  bloop bloop
-  <img/>
+  LinkAccounts
+  <img src="/images/friend_tag.png"/>
 </template>
 
 <template name="cardScreen">
@@ -69,3 +59,4 @@
     <li><a href="https://forums.meteor.com" target="_blank">Discussions</a></li>
   </ul>
 </template>
+

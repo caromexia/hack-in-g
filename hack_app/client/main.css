@@ -21,12 +21,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', end
 
 .logo{
 	margin-left: 238px;
-	text-align: center;
 	margin-top: 100px;
 /*	margin-bottom: 200px;*/
 	width:auto;
     height:80px;
 }
+
 .green{
   font-family: 'Open Sans', sans-serif;
   text-align: center;
@@ -57,6 +57,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', end
 }
 
 .blue {
+  margin-top: 100px;
   text-align: center;
   background: #29E3F5;
   background-image: -webkit-linear-gradient(top, #29E3F5, 29E3F5);
